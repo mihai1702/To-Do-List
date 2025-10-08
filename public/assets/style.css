@@ -49,6 +49,7 @@ li {
 
 .task-comp {
     display: flex;
+    gap: 10px;
     align-items: center;
     width: 100%;
 }
@@ -56,23 +57,18 @@ li {
 .task-comp form {
     margin: 0;
 }
-
-.task-comp button {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
+.task-name {
+    margin: 0;
 }
-
-.task-comp .btn-success {
-    background: #28a745;
-    border: none;
+.completed-p {
+    display: none;
 }
-
-.task-comp .btn-outline-secondary {
-    background: #fff;
-    border: 1px solid #ccc;
+.completed-p-visible {
+    margin: 0;
+    color: #28a745;
+    font-weight: bold;
+    display: inline;
 }
-
 @media (max-width: 500px) {
     .todolist {
         padding: 12px;

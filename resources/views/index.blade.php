@@ -21,19 +21,13 @@
             @foreach($tasks as $task)
                 <li>
                     <div class="task-comp">
-                        <form action="{{ route('tasks.update', $task) }}" method="POST">
-                            @csrf
-                            @method('PUT')
-                            <button class="btn btn-sm {{ $task->completed ? 'btn-success' : 'btn-outline-secondary' }}" type="submit" data-task-id="{{ $task->id }}"></button>
-                            {{ $task->completed ? 'Finished' : '' }}
-                        </form>
-
-                        <span class="ms-2" style="{{ $task->completed ? 'text-decoration:line-through;color:#6c757d' : '' }}">
-                            {{ $task->title }}
-                        </span>
+                        <input type="checkbox" class="complete-checkbox" data-id="{{ $task->id }}" {{ $task->completed ? 'checked' : '' }}>
+                        <p class="completed-p">Completed</p>
+                        <p class="task-name">{{ $task->title }}</p>
                     </div>
                 </li>
             @endforeach
         </ul>
      @endif
 </div>
+

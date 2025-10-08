@@ -34,6 +34,15 @@ class TaskController extends Controller
         ]);
     }
 
+    public function complete($id)
+    {
+        $task = Task::findOrFail($id);
+        $task->completed = !$task->completed;   
+        $task->save();
+
+        return response()->json(['success' => true, 'completed' => $task->completed]);
+    }
+
     public function destroy(Task $task)
     {
         $task->delete();
