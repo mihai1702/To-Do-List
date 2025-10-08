@@ -28,7 +28,7 @@ This project was created as a learning exercise to understand how Laravel works 
 
 1. Clone the project:
    ```bash
-   git clone https://github.com/username/To-Do-List.git
+   git clone https://github.com/mihai1702/To-Do-List.git
    cd To-Do-List
 2. Install PHP dependencies:
     ```bash
