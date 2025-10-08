@@ -1,6 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# To-Do-List (Laravel + jQuery + AJAX)
+# To-Do-List (Laravel + jQuery(AJAX))
 
 A simple to-do list application built with **Laravel**, **Bootstrap**, and **jQuery (AJAX)**.  
 This project was created as a learning exercise to understand how Laravel works together with dynamic front-end interactions.
