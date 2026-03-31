@@ -15,7 +15,7 @@ This project was created as a learning exercise to understand how Laravel works 
 
 ---
 
-## 🧩 Technologies Used
+## Technologies Used
 - [Laravel 11](https://laravel.com/)  
 - [MySQL](https://www.mysql.com/)  
 - [Bootstrap 5](https://getbootstrap.com/)  
@@ -24,7 +24,7 @@ This project was created as a learning exercise to understand how Laravel works 
   
 ---
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the project:
    ```bash
